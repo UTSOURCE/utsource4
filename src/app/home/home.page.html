@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar  color="primary" translucent="true">
+    <ion-buttons slot="start">
+      <ion-menu-button style="color: #fff"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Home
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button >
+        <!--<ion-icon slot="icon-only" class="iconfont icon-sousuo" style="color: #fff;"></ion-icon>-->
+        <svg class="myicon" aria-hidden="true">
+          <use xlink:href="#icon-sousuo"></use>
+        </svg>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  The world is your oyster.
+  <p>If you get lost, the
+     will be your guide.</p>
+  <p>{{'PurchaseCategory'|translate}}</p>
+
+    <button ion-button color="dark" (click)="switchLanguage('en')">Dark</button>
+    <button ion-button color="dark" (click)="switchLanguage('zh')">Dark22</button>
+</ion-content>

@@ -1,0 +1,9 @@
+{
+  "name": "Utsource4",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular",
+  "pro_id": "10ef5e41"
+}

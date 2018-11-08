@@ -1,0 +1,9 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "Utsource4",
+  "bundledWebRuntime": false,
+  "webDir": "www",
+  "server": {
+    "url": "http://192.168.2.11:8102"
+  }
+}
